@@ -9,7 +9,7 @@ public class DbConnection {
         "jdbc:mysql://localhost:3306/student_db";
 
     private static final String USER = "root";
-    private static final String PASSWORD = "root"; 
+    private static final String PASSWORD = "$$$$"; //change the password
 
     public static Connection getConnection() throws Exception {
 
