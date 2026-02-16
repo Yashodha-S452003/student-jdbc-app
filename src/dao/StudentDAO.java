@@ -24,7 +24,7 @@ public class StudentDAO {
             System.out.println("✅ Student Inserted Successfully!");
 
         } catch (Exception e) {
-            e.printStackTrace();
+            e.printStackTrace();//if there is any error it will show the track with line
         }
     }
 }
